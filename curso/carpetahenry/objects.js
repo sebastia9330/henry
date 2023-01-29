@@ -3,7 +3,9 @@ var deportes = {
     sinBalon: ['Boxeo', 'Surf', 'Trekking'],
  };
  var persona = { nombre: 'Lucas', edad: 26, estudios: { esProgramador: true } };
- console.log(persona)
+ if(persona.edad){
+    console.log(persona);
+ }
 
  // ACCEDER
 var persona = { nombre: 'Lucas', edad: 26, estudios: { esProgramador: true } };
@@ -27,7 +29,7 @@ console.log(autos);
 var atuendos = { manos: ['Guantes', 'Anillos'], pies: ['Zapatos', 'Soquetes'] };
 
 // BRACKET NOTATION
-atuendos['piernas'] = ['Bermudas', 'Pantalones'];
+atuendos['manos'].push('Pantalones');
 console.log(atuendos);
 
 
@@ -35,6 +37,6 @@ console.log(atuendos);
 var comidas = {};
 var diferenciaDeNotaciones = function(propUno, propDos){
     comidas,propUno = ['frutas', 'verduras'];
-    comidad[propDos] = ['hamburguesa', 'pizza'];
+    comidas[propDos] = ['hamburguesa', 'pizza'];
 };
 

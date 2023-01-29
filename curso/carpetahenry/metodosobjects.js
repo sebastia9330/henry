@@ -4,6 +4,7 @@ var tienePropiedad = libro.hasOwnProperty('nombre');
 
 console.log(tienePropiedad);
 
+
 // KEYS imprime solo las llaves o claves del objeto
 var libro = { autor: 'Borges', genero: 'Policial', año: 1990 };
 var todasLasPropiedades = Object.keys(libro);
