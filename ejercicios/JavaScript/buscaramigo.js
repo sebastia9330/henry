@@ -7,3 +7,8 @@ var encontrado = amigos.filter(item => {
     }
 });
 console.log(encontrado[0].nombre)
+
+var searchPropiedad = array.map(function(current){
+    return current[propiedad]
+  });
+  return searchPropiedad
