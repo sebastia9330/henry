@@ -36,7 +36,7 @@ console.log(atuendos);
 //funcion dentro de un objeto con variables externas
 var comidas = {};
 var diferenciaDeNotaciones = function(propUno, propDos){
-    comidas,propUno = ['frutas', 'verduras'];
+    comidas[propUno] = ['frutas', 'verduras'];
     comidas[propDos] = ['hamburguesa', 'pizza'];
 };
-
+console.log(comidas)
